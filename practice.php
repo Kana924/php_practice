@@ -75,4 +75,29 @@ for ($i = $start; $i <= $end; $i++) {
   }
 }
 
+$animals =array("monkey","hippo","elephant","quokka");
+foreach ($animals as $animal) {
+  echo "要素は". $animal;
+  echo "\n";
+}
+echo "\n";
+
+$grocery_shopping =array("イオンでは" => "アボカを買いました。","イオンでは" => "ゴマ塩を買いました。","関西スーパーでは" => "トマト缶を買いました。","関西スーパーで" => "魚を買いました。","ららぽーとでは" => "きしめんを買いました。",);
+foreach ($grocery_shopping as $key => $ingredients) {
+  echo "". $key. $ingredients;
+  echo "\n";
+}
+
+$start = 1;
+$end =  50;
+for ($i = $start; $i <= $end; $i++) {
+  if($i % 3 == 0) {
+  echo $i;
+  echo "\n";
+  }
+}
+
+$mum = "absdef";
+echo strlen($mum);
+
 ?>
