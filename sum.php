@@ -216,3 +216,9 @@ echo "\n";
 echo "\n";
 
 ?>
+
+<?php
+
+route::get('xxx', 'AAAController@bbb');
+
+?>
